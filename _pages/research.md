@@ -8,9 +8,9 @@ My research studies how the structure of signals and measurement systems can gui
 
 ## Blind separation of graph signals
 
-We studied the graph decorrelation (GraDe) algorithm, which aims to separate latent graph sources by exploiting the information given by the graph structure.
+The graph decorrelation (GraDe) algorithm aims to separate latent graph sources by exploiting the information provided by the graph structure. The method jointly diagonalizes graph autocovariance matrices of the observed mixtures.
 
-A limitation of this method was identified: sample graph autocovariance matrices can be poor estimates of their expected values because graph signal entries are generally neither independent nor identically distributed across nodes (not i.i.d.). The assumptions that justify sample averaging for time signals do not automatically hold for graph signals, so the sample autocovariance matrices of the sources may lack the diagonal structure that GraDe relies on. We showed that outlier eigenvalues in the graph spectrum contribute to this loss of diagonality and proposed a method that removes their contributions, thereby improving joint diagonalization and source separation.
+We identified a limitation of this method: sample graph autocovariance matrices can be poor estimates of their expected values because graph signal entries are generally neither independent nor identically distributed across nodes (not i.i.d.). The assumptions that justify sample averaging for time signals do not automatically hold for graph signals, so the sample autocovariance matrices of the sources may lack the diagonal structure that GraDe relies on. We showed that outlier eigenvalues in the graph spectrum contribute to this loss of diagonality. The proposed method filters the observed mixtures in the graph spectral domain, removing components associated with outlier eigenvalues, thus improving diagonality and source separation.
 
 **Related paper:** [An improved GraDe method for blind separation of graph signals](https://doi.org/10.1109/TSP.2023.3331264), *IEEE Transactions on Signal Processing*, 2023.
 

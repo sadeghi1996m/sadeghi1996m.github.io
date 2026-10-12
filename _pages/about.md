@@ -10,7 +10,7 @@ redirect_from:
 I recently defended my cotutelle PhD in Signal, Image, Speech and Telecommunications at Université Grenoble Alpes ([GIPSA-lab](https://www.gipsa-lab.grenoble-inp.fr/)) and Sharif University of Technology.
 
 
-I began my doctoral research at Sharif University of Technology, under the supervision of [Massoud Babaie-Zadeh](https://scholar.google.com/citations?hl=en&user=5H-SuMcAAAAJ&view_op=list_works&sortby=pubdate). My work focused on graph signal processing, particularly the blind separation of graph signals.
+I began my doctoral research at Sharif University of Technology in 2021, under the supervision of [Massoud Babaie-Zadeh](https://scholar.google.com/citations?hl=en&user=5H-SuMcAAAAJ&view_op=list_works&sortby=pubdate). My work focused on graph signal processing, particularly the blind separation of graph signals.
 
 In 2023, I joined GIPSA-lab in Grenoble as part of the cotutelle programme, under the supervision of [Bertrand Rivet](https://www.gipsa-lab.grenoble-inp.fr/~bertrand.rivet/). My research there focused on optimal sensor placement for source separation in noisy and uncertain environments, with applications to EEG electrode placement for P300-based brain–computer interfaces.
 
