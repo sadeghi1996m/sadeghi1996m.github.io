@@ -4,9 +4,9 @@ permalink: /research/
 excerpt: "Spectral methods for graph signals, sensor placement under uncertainty, and EEG electrode placement for brain–computer interfaces."
 ---
 
-The following sections summarize the main topics I explored during my PhD.
+The following sections provide an overview of my doctoral research.
 
-## Blind separation of graph signals
+## Graph signal separation
 
 The graph decorrelation (GraDe) algorithm aims to separate latent graph sources by exploiting the information provided by the graph structure. The method jointly diagonalizes graph autocovariance matrices of the observed mixtures.
 
