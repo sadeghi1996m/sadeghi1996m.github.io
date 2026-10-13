@@ -16,17 +16,23 @@ We identified a limitation of this method: sample graph autocovariance matrices 
 
 ## Sensor placement under uncertainty
 
-Where should sensors be placed to recover the signals of interest from noisy measurements? I developed a statistical framework that models source-to-sensor gains using Gaussian processes, allowing uncertainty and prior knowledge to enter the placement problem.
+Where should sensors be placed to best recover the signals of interest from noisy measurements? We developed a statistical framework that models source-to-sensor gains using Gaussian processes, incorporating uncertainty and prior knowledge into the placement problem.
 
-The framework uses mean squared error and signal-to-interference-plus-noise ratio criteria, with stochastic optimization to find informative sensor locations. I also investigated sensor placement for sparse signal reconstruction in underdetermined systems, where both measurement noise and the properties of the sensing matrix influence recovery.
+Criteria based on mean squared error (MSE) and signal-to-interference-plus-noise ratio (SINR) are derived from this model, and sensor locations are optimized using stochastic gradient methods. We also investigated sensor placement for sparse signal reconstruction in underdetermined systems, where both measurement noise and the properties of the sensing matrix influence recovery.
+
 
 **Related work:** [Signal Processing, 2025](https://doi.org/10.1016/j.sigpro.2024.109659) · [EUSIPCO, 2023](https://doi.org/10.23919/EUSIPCO58844.2023.10289756) · [Manuscript under review]({{ '/publications/#under-review' | relative_url }}).
 
 ## EEG and brain–computer interfaces
 
+We applied this framework to EEG electrode placement for P300-based brain–computer interfaces. The model captures differences in source-to-electrode gains between participants and uses shared spatial patterns as prior knowledge.
+
+We proposed a subject-independent electrode placement (SIEP) method that uses this knowledge to choose electrode locations for new participants, reducing the need for full-cap calibration recordings. A hybrid electrode placement (HEP) method incorporates available recordings from the new participant through a Bayesian update, allowing the placement to be tailored to that participant.
+
 I applied this framework to electrode placement for P300-based brain–computer interfaces. The aim is to select useful electrode locations while accounting for variability between people and reducing calibration requirements.
 
 Our subject-independent electrode placement method learns common spatial patterns across a population. A hybrid method combines this prior knowledge with available recordings from a new participant through a Bayesian update.
+
 
 **Related paper:** [Prior knowledge-driven robust electrode placement method for P300-based brain-computer interfaces](https://doi.org/10.1016/j.bspc.2026.110123), *Biomedical Signal Processing and Control*, 2026.
 
