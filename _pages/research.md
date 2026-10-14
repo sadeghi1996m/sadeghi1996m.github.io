@@ -25,9 +25,9 @@ Criteria based on mean squared error (MSE) and signal-to-interference-plus-noise
 
 ## EEG and brain–computer interfaces
 
-An objective in EEG-based systems is to use fewer electrodes without sacrificing accuracy. The challenge is that finding optimal locations for those few electrodes often requires information of calibration recordings from many electrodes first. We addressed this challenge in P300-based brain–computer interfaces (BCIs) through stochastic modeling of P300 gains, capturing variability across participants and learning shared spatial patterns as prior knowledge for electrode placement.
+An objective in EEG-based systems is to use fewer electrodes without sacrificing accuracy. The challenge is that finding optimal locations for those few electrodes often requires calibration recordings from many electrodes first. We addressed this challenge in P300-based brain–computer interfaces (BCIs) through stochastic modeling of P300 gains, capturing variability across participants and learning shared spatial patterns as prior knowledge for electrode placement.
 
-The proposed subject-independent electrode placement (SIEP) method uses this prior knowledge alone to select optimal electrode locations without any calibration recordings, transferring learned knowledge robustly across population datasets. Hybrid electrode placement (HEP) tailors the placement to a new participant by incorporating available recordings through a Bayesian update.
+The proposed subject-independent electrode placement (SIEP) method uses this prior knowledge to select optimal electrode locations without any calibration recordings, transferring learned knowledge robustly across population datasets. Hybrid electrode placement (HEP) tailors the placement to a new participant by incorporating available recordings through a Bayesian update.
 
 **Related paper:** [Prior knowledge-driven robust electrode placement method for P300-based brain-computer interfaces](https://doi.org/10.1016/j.bspc.2026.110123), *Biomedical Signal Processing and Control*, 2026.
 

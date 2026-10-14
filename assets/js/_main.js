@@ -10,10 +10,15 @@ const PLOTLY_URL = "https://cdn.jsdelivr.net/npm/plotly.js@3.6.0/dist/plotly.min
 const MERMAID_URL = "https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs";
 
 // Detect OS/browser preference
-const browserPref = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+// Theme switching is disabled; restore this line with the commented blocks below.
+// const browserPref = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
 
 // Determine the computed theme, which can be "dark" or "light".
 function determineComputedTheme() {
+  // Keep pages and charts in light mode. To restore switching, remove this return,
+  // uncomment the original preference logic below, and run npm run build:js.
+  return "light";
+  /*
   // Determine the expected state of the theme toggle, which can be "dark", "light", or default "system"
   let themeSetting = localStorage.getItem("theme");
   themeSetting = (themeSetting != "dark" && themeSetting != "light" && themeSetting != "system") ? "system" : themeSetting;
@@ -23,6 +28,7 @@ function determineComputedTheme() {
     return themeSetting;
   }
   return browserPref ? "dark" : "light";
+  */
 }
 
 // Set the theme on page load or when explicitly called. Without an argument the
@@ -141,8 +147,10 @@ $(document).ready(function () {
   const scssLarge = 925;          // pixels, from /_sass/_themes.scss
   const scssMastheadHeight = 70;  // pixels, from the current theme (e.g., /_sass/theme/_default.scss)
 
-  // If the user hasn't chosen a theme, follow the OS preference
+  // Use the fixed light theme while switching is disabled.
   setTheme();
+  /*
+  // If the user hasn't chosen a theme, follow the OS preference
   window.matchMedia('(prefers-color-scheme: dark)')
         .addEventListener("change", (e) => {
           if (!localStorage.getItem("theme")) {
@@ -152,6 +160,7 @@ $(document).ready(function () {
 
   // Enable the theme toggle
   $('#theme-toggle').on('click', toggleTheme);
+  */
 
   // Enable the sticky footer
   var bumpIt = function () {

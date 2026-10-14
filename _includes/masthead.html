@@ -18,9 +18,14 @@
               <a href="{{ domain }}{{ link.url }}">{{ link.title }}</a>
             </li>
           {% endfor %}
+          {% comment %}
+          Theme switching is disabled. To restore it, uncomment this control and
+          the keyboard handler in footer/custom.html, restore the commented theme
+          logic in assets/js/_main.js, and run npm run build:js.
           <li id="theme-toggle" class="masthead__menu-item persist tail">
             <a role="button" tabindex="0" aria-label="Toggle light and dark theme"><i id="theme-icon" class="fa-solid fa-sun" aria-hidden="true"></i></a>
           </li>
+          {% endcomment %}
         </ul>
         <ul class="hidden-links hidden"></ul>
       </nav>
