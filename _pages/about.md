@@ -24,7 +24,7 @@ In 2023, I joined GIPSA-lab in Grenoble as part of the cotutelle programme, unde
 
 I received my MSc in Electrical Engineering (Communication Systems) from Sharif University of Technology in 2020 and my BSc in Electrical Engineering from the University of Tehran in 2018.
 
-During my master's, I also worked in industry, designing and developing a QPSK radio link with real-time signal processing on an FPGA.
+During my master's, I also worked in industry, designing and implementing a QPSK radio link with real-time signal processing on FPGA.
 
 
 ## Contact
