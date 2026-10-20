@@ -14,7 +14,7 @@ baseurl: ""
 repository: "sadeghi1996m/sadeghi1996m.github.io"
 
 author:
-  avatar: "mohammad-sadeghi.png"
+  avatar: "Prof.jpg"
   name: "Mohammad SADEGHI"
   given_name: "Mohammad"
   family_name: "SADEGHI"
@@ -35,7 +35,7 @@ atom_feed:
   hide: true
 analytics:
   provider: false
-og_image: "mohammad-sadeghi.png"
+og_image: "Prof.jpg"
 social:
   type: Person
   name: "Mohammad SADEGHI"

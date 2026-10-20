@@ -37,7 +37,9 @@ a,
   width: 180px;
   height: auto;
   max-width: 100%;
-  border-radius: 8px;
+  aspect-ratio: 1;
+  object-fit: cover;
+  border-radius: 50%;
   padding: 0;
   border: 1px solid var(--global-border-color);
 }
