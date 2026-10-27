@@ -6,6 +6,10 @@ excerpt: "Spectral methods for graph signals, sensor placement under uncertainty
 
 The following sections provide an overview of my doctoral research.
 
+[PhD defense slides (PDF)]({{ '/files/phd-defense-slides.pdf' | relative_url }})
+
+My PhD thesis will be publicly available soon. In the meantime, please [contact me](mailto:{{ site.author.email }}) for a copy.
+
 ## Graph signal separation
 
 The graph decorrelation (GraDe) algorithm aims to separate latent graph sources by exploiting the information provided by the graph structure. The method jointly diagonalizes graph autocovariance matrices of the observed mixtures.
