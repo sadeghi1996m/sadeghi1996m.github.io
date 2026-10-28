@@ -33,6 +33,6 @@ The proposed subject-independent electrode placement (SIEP) method uses this pri
 
 **Related paper:** [Prior knowledge-driven robust electrode placement method for P300-based brain-computer interfaces](https://doi.org/10.1016/j.bspc.2026.110123), *Biomedical Signal Processing and Control*, 2026.
 
-## Future directions
+<!-- ## Future directions
 
-I am interested in graph machine learning, geometric deep learning, and statistical inference on graphs, especially in understanding their theoretical foundations and developing principled learning methods.
+I am interested in graph machine learning, geometric deep learning, and statistical inference on graphs, especially in understanding their theoretical foundations and developing principled learning methods. -->
