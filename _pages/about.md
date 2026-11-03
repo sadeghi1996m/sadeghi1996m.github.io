@@ -18,7 +18,7 @@ In 2023, I joined GIPSA-lab in Grenoble as part of the cotutelle programme, unde
 
 - Graph signal processing and machine learning
 - Biomedical data analysis
-- Source separation
+- Inverse problems
 
 ## Background
 
