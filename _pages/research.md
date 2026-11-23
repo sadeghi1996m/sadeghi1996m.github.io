@@ -4,9 +4,7 @@ permalink: /research/
 excerpt: "Spectral methods for graph signals, sensor placement under uncertainty, and EEG electrode placement for brain–computer interfaces."
 ---
 
-The following sections provide an overview of my doctoral research.
-
-See my [thesis](https://theses.hal.science/tel-05877494v1) and [defense slides]({{ '/files/phd-defense-slides.pdf' | relative_url }}).
+The following sections provide an overview of my doctoral research. See my [thesis](https://theses.hal.science/tel-05877494v1){: target="_blank" rel="noopener noreferrer" } and [defense slides]({{ '/files/phd-defense-slides.pdf' | relative_url }}){: target="_blank" rel="noopener noreferrer" }.
 
 ## Graph signal separation
 
