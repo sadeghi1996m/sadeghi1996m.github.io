@@ -6,7 +6,7 @@ excerpt: "Spectral methods for graph signals, sensor placement under uncertainty
 
 The following sections provide an overview of my doctoral research.
 
-My PhD thesis will be public soon, [contact me](mailto:{{ site.author.email }}) for a copy. Slides: [here]({{ '/files/phd-defense-slides.pdf' | relative_url }}).
+See my [thesis](https://theses.hal.science/tel-05877494v1) and [defense slides]({{ '/files/phd-defense-slides.pdf' | relative_url }}).
 
 ## Graph signal separation
 
